@@ -1,0 +1,14 @@
+import os
+import os.path
+import urllib
+#from bs4 import BeautifulSoup
+
+#destination = "/path/to/folder"
+#if os.path.exists(destination) is False:
+#    os.mkdirs(destination)
+# You can also use the convenience method urlretrieve if you're using urllib anyway
+#urllib.urlretrieve("http://randomsite.com/file.gz", os.path.join(destination, "file.gz"))
+
+file = open("songs_source.txt", "r")
+for line in file: 
+	print line, 
